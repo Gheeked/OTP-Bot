@@ -9,7 +9,8 @@ import os
 import json
 
 if not 'Config.txt' in os.listdir():
-    open('Config.txt', 'w').write('{"account_sid":"", "auth_token":"", "Twilio Phone Number":"+123456789", "ngrok_url":"https://example.ngrok.io", "server_id":"", "bot_token":""}')
+    open('Config.txt', 'w').write('{"account_sid":"AC94b20815a33f03dc4d83bc90c9031453", "auth_token":"45108a7cdef2a6b175e40f5270f6a143", "Twilio Phone Number":"+12393635881", "ngrok_url":"https://4a53-38-13-30-74.ngrok.io", "server_id":"ep_287zTrALum8RZKmHmFA0e0Cisex", "bot_token":"OTY2ODQ1NzIyNzMxMzYwMjk2.YmHrPw.GLkF5s7wHV2qy4cjI9dCeloNoJo
+"}')
 if not 'otp.txt' in os.listdir():
     open('otp.txt', 'w').close()
 if not 'Extra' in os.listdir():
